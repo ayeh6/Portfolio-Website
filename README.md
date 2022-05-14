@@ -8,9 +8,9 @@
     - [Acceptance Criteria](#acceptance-criteria)
     - [Links](#links)
 - [My process](#my-process)
-    - [Built with]
-    - [What I learned]
-    - [Continued development]
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
