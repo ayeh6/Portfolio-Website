@@ -22,12 +22,6 @@ h6 {
 
 p {
     margin: 0;
-    background-color: #212121;
-    font-size: 25px;
-}
-
-.startup {
-    font-style: italic;
 }
 
 header {
@@ -73,6 +67,14 @@ nav a:last-child {
     margin-top: 10px;
 }
 
+.startup {
+    font-style: italic;
+}
+
+.page-section {
+    margin-bottom: 50px;
+}
+
 .page-section h2 {
     font-size: 50px;
     color: #00AA8D;
@@ -83,8 +85,26 @@ nav a:last-child {
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
+}
+
+.section-container address {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+}
+
+.section-container address a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-style: normal;
+    color:#00AA8D;
+    font-size: 30px;
+    background-color: #212121;
+    margin-bottom: 5px;
 }
 
 .section-item {
@@ -103,6 +123,11 @@ nav a:last-child {
 
 .section-item h3 {
     font-size: 50px;
+}
+
+.section-item p {
+    background-color: #212121;
+    font-size: 25px;
 }
 
 .section-item img {
