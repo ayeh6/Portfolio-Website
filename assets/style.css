@@ -90,6 +90,11 @@ nav a:last-child {
     flex-wrap: wrap;
 }
 
+.section-container a {
+    color: #00AA8D;
+    background-color: #212121;
+}
+
 .section-container address {
     font-size: 20px;
     display: flex;
@@ -102,15 +107,18 @@ nav a:last-child {
     text-decoration: none;
     padding: 5px 10px;
     font-style: normal;
-    color:#00AA8D;
     font-size: 30px;
     background-color: #212121;
     margin-bottom: 5px;
 }
 
+.yourlocals {
+    flex: 0 0 98.4%;
+}
+
 .section-item {
     border: 10px solid #212121;
-    width: 100%;
+    width: 49%;
     margin: 5px;
 }
 
@@ -118,7 +126,7 @@ nav a:last-child {
     padding: 20px;
     background-color: #212121;
     height: 100%;
-    width: 75%;
+    width: 50%;
     font-size: 35px;
 }
 
@@ -133,9 +141,8 @@ nav a:last-child {
 
 .section-item img {
     margin: auto;
-    display: block;
     max-height: 100%;
-    max-width: 25%;
+    max-width: 50%;
     background-color: #ffffff;
 }
 
