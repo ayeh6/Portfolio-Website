@@ -112,6 +112,10 @@ nav a:last-child {
     margin-bottom: 5px;
 }
 
+.about-me {
+    flex: 0 0 98.4%;
+}
+
 .yourlocals {
     flex: 0 0 98.4%;
 }
